@@ -76,6 +76,8 @@ export class Gamelogic {
             }
         });
 
+        console.log(currentarray);
+
         checkarray.forEach((checkfield, index) => {
             if(this.arrayEquals(checkfield,currentarray)){
                 isWinner = true;
